@@ -6,7 +6,7 @@
     $query = $db->prepare($sql);
     $query->execute();
     $film = $query->fetch(PDO::FETCH_ASSOC);
-?>
+?> 
 <main class='container'>
     <article class='row'>
         <section class='col-12'>
